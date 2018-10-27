@@ -1,4 +1,4 @@
-/* General Elements*/
+
 body{
     background-image: url("../images/memphis-colorful.png");
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -26,14 +26,14 @@ ul {
 	list-style: disc inside;
 	text-indent: 20px;
 }
-/* Specfic Elements*/
+
 div.header, div.gems{
 	background-color: #e0e0eb;
 }
 div.header, div.instructions{
 	width: 50%;
 }
-/* Classes */
+
 .numberToMatch, .winsAndLosses{
 	float: left;
 	width: 15%;
@@ -50,7 +50,7 @@ div.header, div.instructions{
 	height: 60px;
 	margin: 10px;
 }
-/* IDs */
+
 #blue{
 	color: #3092c7;
 }
