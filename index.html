@@ -1,0 +1,62 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crysral Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="header">
+		<h1>Crystal Collector</h1>
+	</div>
+	<div class="instructions">
+		<h3>Here's how you play the game</h3>
+		<br>
+		<ol>
+			<p>You will be given a random number at the start of the game.</p>
+			<p>There are four crystals below.</p>
+			<ul>
+				<li id="blue">Blue</li>
+				<li id="green">Green</li>
+				<li id="red">Red</li>
+				<li id="yellow">Yellow</li>
+			</ul>
+			<p>By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+			<p>You win the game by matching your total score to the random number.</p>
+			<p>You lose the game if your total score goes above the random number.</p>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<p>Each time when the game starts, the game will change the values of each crystal.</p>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			<br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="gems">
+		<img src="assets/images/jewel1.gif" class=gemImage id="one" alt="Green Gem">
+		<img src="assets/images/jewel2.gif" class=gemImage id="two" alt="Red Gem">
+		<img src="assets/images/jewel3.gif" class=gemImage id= "three" alt="Blue Gem">
+		<img src="assets/images/jewel4.gif" class=gemImage id= "four" alt="Yellow Gem">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+</html>
